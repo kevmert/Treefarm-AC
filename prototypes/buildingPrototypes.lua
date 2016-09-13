@@ -100,28 +100,6 @@ data:extend(
 --ENTITIES
 	-- COKERY
 	{
-    type = "container",
-    name = "tf-cokery-dummy",
-    icon = "__Treefarm-AC__/graphics/icons/cokery.png",
-    flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "tf-cokery"},
-		max_health = 200,
-		corpse = "big-remnants",
-		resistances = {{type = "fire", percent = 70}},
-		collision_box = {{-1.4, -2.0}, {1.4, 2.4}},
-		selection_box = {{-1.5, -2.5}, {1.5, 2.5}},
-    inventory_size = 1,
-    picture =
-    {
-      filename = "__Treefarm-AC__/graphics/entities/cokery/cokery-idle.png",
-      priority = "extra-high",
-      width = 100,
-      height = 160,
-      shift = {0.0, 0.0}
-    }
-  },
-
-	{
 		type = "assembling-machine",
 		name = "tf-cokery",
 		icon = "__Treefarm-AC__/graphics/icons/cokery.png",
@@ -133,7 +111,10 @@ data:extend(
 		resistances = {{type = "fire", percent = 70}},
 		collision_box = {{-1.4, -2.0}, {1.4, 2.4}},
 		selection_box = {{-1.5, -2.5}, {1.5, 2.5}},
+		module_specification =
+		{
 		module_slots = 2,
+		},
 		allowed_effects = {"consumption", "speed"},
 
 		animation =
@@ -219,7 +200,10 @@ data:extend(
 		max_health = 100,
 		corpse = "big-remnants",
 		dying_explosion = "medium-explosion",
+		module_specification =
+		{
 		module_slots = 1,
+		},
 		resistances = {{type = "fire",percent = 70}},
 		working_sound = {
 							sound = {
@@ -349,7 +333,10 @@ data:extend(
 		corpse = "big-remnants",
 		collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+		module_specification =
+		{
 		module_slots = 2,
+		},
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		animation =
 		{
