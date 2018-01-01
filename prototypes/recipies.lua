@@ -6,6 +6,7 @@ data:extend(
 		type = "recipe",
 		name = "fertwork",
 		icon = "__Treefarm-AC__/graphics/icons/fertilizer.png",
+		icon_size = 32,
 		subgroup = "raw-material",
 		order = "b[charcoal]",
 		hidden = true,
@@ -21,6 +22,7 @@ data:extend(
 		type = "recipe",
 		name = "tf-charcoal",
 		icon = "__Treefarm-AC__/graphics/icons/charcoal.png",
+		icon_size = 32,
 		subgroup = "tf-raw-materials",
 		order = "b[charcoal]",
 		category = "treefarm-mod-smelting",
@@ -134,6 +136,7 @@ data:extend(
 		type = "recipe",
 		name = "tf-methanol1",
 		icon = "__Treefarm-AC__/graphics/icons/methanol.png",
+		icon_size = 32,
 		category = "treefarm-mod-bioreactor",
 		order = "a[fluid]-b[methanol]",
 		subgroup = "tf-intermediate",
@@ -158,6 +161,7 @@ data:extend(
 		subgroup = "tf-liquids",
 		order = "b[fill-liquid-nitrogen-barrel]",
 		icon = "__Treefarm-AC__/graphics/icons/fill-liquid-nitrogen-barrel.png",
+		icon_size = 32,
 		ingredients =
 		{
 			{type="fluid", name="tf-liquid-nitrogen", amount=25},
@@ -178,6 +182,7 @@ data:extend(
 		subgroup = "tf-liquids",
 		order = "c[empty-liquid-nitrogen-barrel]",
 		icon = "__Treefarm-AC__/graphics/icons/empty-liquid-nitrogen-barrel.png",
+		icon_size = 32,
 		ingredients =
 		{
 		  {type="item", name="tf-liquid-nitrogen-barrel", amount=1}
@@ -196,6 +201,7 @@ data:extend(
 		category = "chemistry",
 		energy_required = 5,
 		icon = "__Treefarm-AC__/graphics/icons/phosphate.png",
+		icon_size = 32,
 		ingredients =
 		{
 		  {type="item", name="tf-crushed-stone", amount=3},
@@ -215,6 +221,7 @@ data:extend(
 		category = "chemistry",
 		energy_required = 5,
 		icon = "__Treefarm-AC__/graphics/icons/potassium.png",
+		icon_size = 32,
 		ingredients =
 		{
 		  {type="item", name="tf-crushed-stone", amount=3},
@@ -234,6 +241,7 @@ data:extend(
 		category = "chemistry",
 		energy_required = 125,
 		icon = "__Treefarm-AC__/graphics/icons/fertilizer.png",
+		icon_size = 32,
 		ingredients =
 		{
 			{type="item", name="tf-phosphate", amount=25},
@@ -254,6 +262,7 @@ data:extend(
 		category = "chemistry",
 		energy_required = 5,
 		icon = "__Treefarm-AC__/graphics/icons/fertilizer.png",
+		icon_size = 32,
 		ingredients =
 		{
 			{type="item", name="tf-phosphate", amount=1},
@@ -272,6 +281,7 @@ data:extend(
 		type = "recipe",
 		name = "tf-biomass-0",
 		icon = "__Treefarm-AC__/graphics/icons/biomass.png",
+		icon_size = 32,
 		subgroup = "tf-intermediate",
 		category = "treefarm-mod-bioreactor",
 		energy_required = 10,
@@ -292,6 +302,7 @@ data:extend(
 		type = "recipe",
 		name = "tf-biomass-1",
 		icon = "__Treefarm-AC__/graphics/icons/biomass.png",
+		icon_size = 32,
 		subgroup = "tf-intermediate",
 		category = "treefarm-mod-bioreactor",
 		energy_required = 10,
