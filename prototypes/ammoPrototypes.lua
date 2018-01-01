@@ -30,6 +30,7 @@ data:extend(
 		type = "item",
 		name = "tf-glue",
 		icon = "__Treefarm-AC__/graphics/icons/glue.png",
+		icon_size = 32,
 		flags = {"goes-to-main-inventory"},
 		subgroup = "tf-intermediate",
 		order = "b[glue]",
@@ -42,6 +43,7 @@ data:extend(
 		type = "item",
 		name = "tf-glue-turret",
 		icon = "__Treefarm-AC__/graphics/icons/glue-turret.png",
+		icon_size = 32,
 		flags = {"goes-to-quickbar"},
 		subgroup = "tf-war",
 		order = "b[turret]-a[glue-turret]",
@@ -65,7 +67,7 @@ data:extend(
 			{type = "item", name = "steel-plate", amount = 2},
 			{type = "fluid", name = "tf-methanol", amount = 10},
 		},
-		result = "flame-thrower-ammo"
+		result = "flamethrower-ammo"
 	},
 
 	--GLUE
@@ -109,6 +111,7 @@ data:extend(
 		type = "ammo",
 		name = "tf-slowdown-rocket",
 		icon = "__Treefarm-AC__/graphics/icons/slowdown-rocket.png",
+		icon_size = 32,
 		flags = {"goes-to-main-inventory"},
 		ammo_type =
 		{
@@ -156,6 +159,7 @@ data:extend(
 		type = "ammo",
 		name = "tf-poison-rocket",
 		icon = "__Treefarm-AC__/graphics/icons/poison-rocket.png",
+		icon_size = 32,
 		flags = {"goes-to-main-inventory"},
 		ammo_type =
 		{
@@ -207,6 +211,7 @@ data:extend(
     type = "ammo-turret",
     name = "tf-glue-turret",
     icon = "__Treefarm-AC__/graphics/icons/glue-turret.png",
+	icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 0.5, result = "tf-glue-turret"},
     max_health = 200,
@@ -249,8 +254,10 @@ data:extend(
       priority = "high",
       width = 32,
       height = 32,
+      frame_count = 1,
       shift = {0, 0}
     },
+	vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     attack_parameters =
 		{
         type = "projectile",
@@ -271,7 +278,8 @@ data:extend(
 			},
 			range = 17,
 			sound = make_heavy_gunshot_sounds()
-		}
+		},
+    call_for_help_radius = 40
 	}
 }
 )
