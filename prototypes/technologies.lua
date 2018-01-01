@@ -7,6 +7,7 @@ data:extend(
 		type = "technology",
 		name = "tf-coal-processing",
 		icon = "__Treefarm-AC__/graphics/icons/charcoal.png",
+		icon_size = 32,
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -43,6 +44,7 @@ data:extend(
 		type = "technology",
 		name = "tf-coal-processing-2",
 		icon = "__Treefarm-AC__/graphics/icons/charcoal_p.png",
+		icon_size = 32,
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -66,6 +68,7 @@ data:extend(
 		type = "technology",
 		name = "tf-coal-processing-3",
 		icon = "__Treefarm-AC__/graphics/icons/charcoal_pp.png",
+		icon_size = 32,
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -90,6 +93,7 @@ data:extend(
 		type = "technology",
 		name = "tf-fertilizer",
 		icon = "__Treefarm-AC__/graphics/icons/fertilizer.png",
+		icon_size = 32,
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -153,6 +157,7 @@ data:extend(
 		type = "technology",
 		name = "tf-advanced-biotechnology",
 		icon = "__Treefarm-AC__/graphics/icons/biomass.png",
+		icon_size = 32,
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -196,6 +201,7 @@ data:extend(
 		type = "technology",
 		name = "tf-organic-plastic",
 		icon = "__Treefarm-AC__/graphics/icons/cellulose.png",
+		icon_size = 32,
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -220,6 +226,7 @@ data:extend(
 		type = "technology",
 		name = "tf-medicine",
 		icon = "__Treefarm-AC__/graphics/icons/medicine.png",
+		icon_size = 32,
 		effects = {
 			{
 				type = "unlock-recipe",
@@ -248,6 +255,7 @@ data:extend(
 		type = "technology",
 		name = "tf-biological-warfare",
 		icon = "__Treefarm-AC__/graphics/icons/poison-rocket.png",
+		icon_size = 32,
 		effects = {
 			{
 				type = "unlock-recipe",
