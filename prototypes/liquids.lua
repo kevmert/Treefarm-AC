@@ -9,6 +9,7 @@
 		flow_color = {r=0.5, g=1.0, b=1.0},
 		max_temperature = 5,
 		icon = "__Treefarm-AC__/graphics/icons/liquid-air.png",
+		icon_size = 32,
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[liquid-air]"
@@ -23,6 +24,7 @@
 		flow_color = {r=0.5, g=1.0, b=1.0},
 		max_temperature = 3,
 		icon = "__Treefarm-AC__/graphics/icons/liquid-nitrogen.png",
+		icon_size = 32,
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[liquid-nitrogen]"
@@ -37,6 +39,7 @@
 		flow_color = {r=1.0, g=1.0, b=1.0},
 		max_temperature = 3,
 		icon = "__Treefarm-AC__/graphics/icons/liquid-co2.png",
+		icon_size = 32,
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[liquid-co2]"
@@ -51,6 +54,7 @@
 		flow_color = {r=0.0, g=0.8, b=0.1},
 		max_temperature = 15,
 		icon = "__Treefarm-AC__/graphics/icons/methanol.png",
+		icon_size = 32,
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[methanol]"
@@ -65,6 +69,7 @@
 		flow_color = {r=0.1, g=1.0, b=0.0},
 		max_temperature = 50,
 		icon = "__Treefarm-AC__/graphics/icons/biomass.png",
+		icon_size = 32,
 		pressure_to_speed_ratio = 0.4,
 		flow_to_energy_ratio = 0.59,
 		order = "a[fluid]-b[biomass]"
